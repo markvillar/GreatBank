@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  OtherViews.swift
 //  GreatBank
 //
 //  Created by Mark on 24/12/2019.
@@ -8,14 +8,15 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct OtherViews: View {
     var body: some View {
-        Text("Hello, World!")
+        Text("gb. money")
+            .font(Font.custom("SFProDisplay-Semibold", size: 28))
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct OtherViews_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        OtherViews()
     }
 }
