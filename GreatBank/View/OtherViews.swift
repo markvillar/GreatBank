@@ -10,7 +10,7 @@ import SwiftUI
 
 struct OtherViews: View {
     var body: some View {
-        Text("gb. money")
+        Text("Great British Bank")
             .font(Font.custom("SFProDisplay-Semibold", size: 28))
     }
 }
