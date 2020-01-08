@@ -53,7 +53,7 @@ struct TransactionView: View {
                                     
                                     TransactionHeader(geometry: geometry)
                                         .padding([.vertical], 12)
-                                        
+                                    
                                     
                                     Text("Transactions")
                                         .font(Font.custom("SFProDisplay-Bold", size: 24))

@@ -35,7 +35,7 @@ struct AccountsView: View {
                 
                 ZStack(alignment: .top) {
                     
-                    Color("Background")
+                    Color(.systemBackground)
                     
                     
                     //Content Begins
