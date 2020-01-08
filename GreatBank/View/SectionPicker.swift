@@ -18,7 +18,7 @@ struct SectionPicker: View {
             Text(title)
                 .font(Font.custom("HelveticaNeue-Bold", size: 20))
                 .kerning(-0.31)
-            Text("(0)")
+            Text("(1)")
                 .font(Font.custom("HelveticaNeue-Medium", size: 20))
                 .kerning(1.0)
             Spacer()
