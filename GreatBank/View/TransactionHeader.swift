@@ -53,9 +53,3 @@ struct TransactionHeader: View {
         
     }
 }
-
-//struct TransactionHeader_Previews: PreviewProvider {
-//    static var previews: some View {
-//        TransactionHeader()
-//    }
-//}

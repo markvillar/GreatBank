@@ -31,9 +31,3 @@ struct HeaderBackground: View {
         
     }
 }
-
-//struct HeaderBackground_Previews: PreviewProvider {
-//    static var previews: some View {
-//        HeaderBackground()
-//    }
-//}
