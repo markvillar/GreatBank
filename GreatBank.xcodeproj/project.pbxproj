@@ -112,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				4D6B9BB823B21CB3003080C2 /* Model */,
-				4D6B9BB723B21CAA003080C2 /* Controller */,
+				4D6B9BB723B21CAA003080C2 /* ViewModel */,
 				4D6B9BB923B21CB7003080C2 /* View */,
 				4D6B9BA323B21AED003080C2 /* AppDelegate.swift */,
 				4D6B9BA523B21AED003080C2 /* SceneDelegate.swift */,
@@ -133,11 +133,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		4D6B9BB723B21CAA003080C2 /* Controller */ = {
+		4D6B9BB723B21CAA003080C2 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				4D6B9BBB23B21CEB003080C2 /* MyTabView.swift */,
+				4D6B9BBD23B21D16003080C2 /* AccountView.swift */,
+				4D6B9BC123B21D57003080C2 /* OtherViews.swift */,
 			);
-			path = Controller;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		4D6B9BB823B21CB3003080C2 /* Model */ = {
@@ -152,11 +155,8 @@
 		4D6B9BB923B21CB7003080C2 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4D6B9BBB23B21CEB003080C2 /* MyTabView.swift */,
-				4D6B9BBD23B21D16003080C2 /* AccountView.swift */,
 				4D6B9BBF23B21D35003080C2 /* TransactionView.swift */,
 				4D6B9BCF23B21E35003080C2 /* Item.swift */,
-				4D6B9BC123B21D57003080C2 /* OtherViews.swift */,
 				4D6B9BC323B21D79003080C2 /* AccountBalance.swift */,
 				4D6B9BC523B21D96003080C2 /* SectionPicker.swift */,
 				4D6B9BC723B21DB2003080C2 /* ScrollSection.swift */,
