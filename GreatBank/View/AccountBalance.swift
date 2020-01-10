@@ -45,3 +45,10 @@ struct AccountBalance: View {
         
     }
 }
+
+struct AccountBalance_Previews: PreviewProvider {
+    static var previews: some View {
+        AccountBalance(currencySymbol: "£", currencySymbolSize: 30, currencySymbolSpacing: -0.21, amount: "1,720", amountSize: 38, amountSpacing: 0, dotSize: 40, decimalPointAmount: "21", decimalPointSize: 34)
+            .previewLayout(.sizeThatFits)
+    }
+}

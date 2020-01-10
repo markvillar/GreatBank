@@ -30,8 +30,9 @@ struct SectionPicker: View {
     }
 }
 
-//struct SectionPicker_Previews: PreviewProvider {
-//    static var previews: some View {
-//        SectionPicker()
-//    }
-//}
+struct SectionPicker_Previews: PreviewProvider {
+    static var previews: some View {
+        SectionPicker(title: "Section Picker")
+            .previewLayout(.sizeThatFits)
+    }
+}
